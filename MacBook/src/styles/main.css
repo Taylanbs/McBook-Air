@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font-family-primary: "Poppins", "Open Sans", "Arial", "Sans-serif";
+    --color-blue-light-gradient-start:#d5eaf6;
+    --color-blue-light-gradient-end:#fefefe;
+    --color-bg-white: #fbfbfb;
+    --color-bg-light: #f5f5f7;
+    --color-text-dark: #1d1d1f;
+    --color-text-gray: #86868b;
+    --color-blue-link: #0071e3;
+    --color-blue-link-hover: #0077ed;
+    --color-blue-gradient-start: #022640;
+    --color-blue-gradient-end:#5786ab;
+
+
+}
+
+
+body{
+    background-color: var(--color-bg-white);
+    font-family: var(--font-family-primary);
+}
+
+h1, h2, h3, p{
+  font-style: 600;  
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--color-text-gray);
+}
+
+/* Text Styles */
+
+.gradient-text-blue{
+    background: linear-gradient(to right, var 
+    (--color-blue-gradient-start),
+    var(--color-blue-gradient-end));
+
+    background-clip: text;
+    color: transparent;
+}
+
+.main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 0 4;
+    background: linear-gradient(to bottom, var(--color-blue-light-gradient-start)), var (var(--color-blue-light-gradient-end), var var(--color-bg-white))
+}
+
+.main_title{
+    font-size: 2rem;
+    line-height: 1.125;
+    letter-spacing: 0,004em;
+    color: var(--color-text-dark);
+}
+.main_suntitle{
+font-size: 4rem;
+letter-spacing: -0.05em;
+
+}
